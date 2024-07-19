@@ -1,0 +1,60 @@
+/* src/Terminal.css */
+.terminal {
+  background: black;
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+  padding: 10px;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh;  */
+}
+.terminal.light {
+  background-color: white;
+  color: black;
+}
+.terminal.light a {
+  color: blue;
+}
+.output {
+  margin-bottom: 5px;
+  flex-grow: 1;
+  overflow-y: auto;
+  text-align: left; /* Ensure text aligns to the left */
+}
+.default{
+  color: rgb(0, 119, 54);
+  display: inline;
+}
+.input-line {
+  /* display: flex; */
+  margin-top: 5px;
+  font-size: 20px;
+  text-align: left; /* Ensure input line text aligns to the left */
+}
+
+.input-line input {
+  background: black;
+  color: white;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  font-size: 20px;
+}
+.input-line.light input {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.input-line span {
+  margin-right: 10px;
+}
+
+/* Block cursor styles */
+.input-line input::before {
+  width: 20px;
+  content: attr(value);
+  visibility: hidden;
+  white-space: pre;
+}

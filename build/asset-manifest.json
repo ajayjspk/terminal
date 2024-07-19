@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ajayjspk/porteriminal/static/css/main.72b90fae.css",
+    "main.js": "/ajayjspk/porteriminal/static/js/main.7ab6afd9.js",
+    "static/js/453.60b12cf9.chunk.js": "/ajayjspk/porteriminal/static/js/453.60b12cf9.chunk.js",
+    "index.html": "/ajayjspk/porteriminal/index.html",
+    "main.72b90fae.css.map": "/ajayjspk/porteriminal/static/css/main.72b90fae.css.map",
+    "main.7ab6afd9.js.map": "/ajayjspk/porteriminal/static/js/main.7ab6afd9.js.map",
+    "453.60b12cf9.chunk.js.map": "/ajayjspk/porteriminal/static/js/453.60b12cf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72b90fae.css",
+    "static/js/main.7ab6afd9.js"
+  ]
+}
